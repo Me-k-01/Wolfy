@@ -7,6 +7,6 @@
     "start": "node botHosting.js"
     },
   "dependencies" : {
-    "discord.js": "12.0.0"
+    "discord.js": "master"
   }
 }
