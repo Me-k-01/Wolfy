@@ -1,1 +1,1 @@
-worker: node botHosting.js
+worker: npm start
