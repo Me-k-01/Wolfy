@@ -250,4 +250,4 @@ bot.on("message", function (message) {
   } //  Avec la condition que l'utilisateur à des permissions d'administrateur.
 });
 
-bot.login("NjQyMzgyMjQ0NDU5MzE1MjI4.XcWaRw.iop68goXj-VyDMfM7fVQ15_jaLM");
+bot.login(process.env.BOT_TOKEN);
