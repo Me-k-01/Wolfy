@@ -1,0 +1,16 @@
+Ceci est le serveur discord de l'équipe des "Mathieu" pour la Nuit de l'Info.
+> Petite description sur ce qu'est la nuit de l'info:
+> La Nuit de l'Info est un concours de programmation au cours du qu'elle les participant doivent développer une application informatique en une nuit.
+> L’objectif de ce concours est de faire travailler un ensemble d'étudiants voulant participer à un défi informatique national.
+Ce serveur Discord n'est __en aucun cas affilié aux régisseurs de La Nuit de L'Info.__
+Il a été créé et est géré par les chefs d'équipe étudiants, pour les étudiants.
+
+**Pour vous voir débloquer l'accès au reste du contenu du serveur, veuillez ajouter la réaction :Mathieu: à ce message.**
+Les renseignements concernant l'inscription dans l'équipe Mathieu se trouvent dans la section *"Informations"* de la Categorie de Channels Textuels *"Importants"*
+> Déroulement:
+> La nuit sera celle du **5 au 6 décembre 2019, de 16h39 à 08h03**.
+> << Un sujet de développement Web Informatique (le même pour tous les participants) est élaboré par les partenaires (entreprises et académiques) de la Nuit de l'Info.
+> Les partenaires définissent également des défis, qui font l'objet de primes (chèques cadeaux, livres…). >>
+> Plus d'informations sur le déroulement de la nuit de l'info sont disponibles sur les sites officiels:
+ > https://www.nuitdelinfo.com/
+ > et https://www.nuitdelinfo.com/nuitinfo/start

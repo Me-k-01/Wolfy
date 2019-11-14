@@ -1,0 +1,3 @@
+> Petite liste non-exhaustive de mes commmandes:
+> ```  L/ping        :  Renvoie la latence (en ms). ```
+> ```  L/inscription :  Envoie les informations à remplir pour être inscrit au groupe des Mathieu(x), pour la Nuit de l'Info.```

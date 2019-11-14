@@ -1,0 +1,4 @@
+Vous pouvez également choisir le rôle que vous voulez avoir dans l'équipe en réagissant avec ces émoticônes;
+> :Graphistes:    =>    Designer graphique  (Illustrateur)
+> :Developpement_Web:    =>    Développement - Web  (Programmation d'application  web)
+> :Developpement_Logiciel:    =>    Développement - Logiciel  (Programmation de logiciel)
