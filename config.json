@@ -1,0 +1,17 @@
+{
+  "prefix" : "l/",
+  "devKey" : "000",
+  "bkDoor" : "14159265359",
+  "messagesID" : ["643438119361708032", "643424196508254208"],
+  "channelsID" : ["642032550608371724", "641921036106858516", "642125012328775685"],
+  "receiversID" : ["305680164598317056", "347430975292178442"],
+  "textPath" : {
+    "inscription" : "./text/inscription.txt",
+    "listCommand" : "./text/commandDesc.txt",
+    "welcome" : "./text/bienvenue.txt"
+  },
+  "examples" : {
+    "python" : "./example/py.txt",
+    "javascript" : "./example/js.txt"
+  }
+}
