@@ -235,7 +235,7 @@ bot.on("message", function (message) {
   else if ( msg.includes("lol") )   message.channel.send("LOOOOOL");
   else if ( msg.includes("mdr") )   message.channel.send("AHAHAAHAHAHAA!");
   else if ( msg.includes("owo") )   message.channel.send("uwu");
-  else if ( msg.includes("loup") || msg.startsWith( config.prefix ) ) {
+  else if ( msg.includes("loup") ) {
     if ( msg.includes("code ") && ( msg.includes("avec") || msg.includes("en") ) ) {
       for ( let language of Object.keys( config.examples ) ) {  // On regarde tout les languages possedant des exemples.
         if ( msg.includes(language) ) {  // Si on parle d'un des languages que l'on a,
