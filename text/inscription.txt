@@ -4,14 +4,14 @@ Je suis Loup, le Bot qui va enregistrer votre identité.
 
 Avant de pouvoir procéder à votre ajout définitif dans ce groupe, j'ai besoin de quelques informations sur vous, qui me sont demandés par le site d'inscription.
 
-C'est pourquoi, je vais vous demander afin de simplifier la procédure, d'entrer vos informations personnelles sous la forme:
+C'est pourquoi, je vais vous demander afin de simplifier la procédure, d'entrer vos informations personnelles ci-bas, sous la forme:
 Nom, prénom, email et niveau Bac.
-Le niveau Bac correspond au nombre d'année d'études que vous avez terminées après le bac ( En 3ème années de licence => 2 ).
+Le niveau Bac correspond au nombre d'années d'études que vous avez completées après le bac ( En 3ème années de licence => 2 ).
 
 > Exemple:
 ```
-Nom: Toto
-Prénom: Mathieu
+Nom:           Toto
+Prénom:        Mathieu
 Adresse email: toto.mathieu@gmail.com
-Niveau Bac: 1
+Niveau Bac:    0      (Donc en licence 1)
 ```
