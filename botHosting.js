@@ -206,7 +206,7 @@ bot.on("message", function (message) {
   var msg = message.content.toLowerCase();  // On ne prends pas en compte la casse.
 
   if ( pm ) { // Lorsque c'est un message privé,
-    ///////////// Personnes a ne pas prendre en compte
+    ///////////// Personnes a ne pas prendre en compte 
     // On verifie que ce n'est pas un des admins,
     if ( config.blackList.indexOf(message.author.id) != -1 ) return;
     if ( config.adminsID.indexOf(message.author.id) != -1 ) return;
