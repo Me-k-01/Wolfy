@@ -138,16 +138,17 @@ bot.on("message", function (message) {
           // Commandes lié aux ajouts / suppressions d'identifiants.
           // (Ne fait que retourner la liste modifiée.)
             if ( cmd.startsWith("show") ) { // Montre les id.
-              message.channel.send("Liste des id: " + array)
+              message.channel.send("Liste des id:");
+              for (let id of array) message.channel.send(id);
               console.log(`Showed`);
 
             } else if ( cmd.startsWith("add ") ) { // Ajouter l'id.
-              var id = cmd.slice("add ".length);
+              let id = cmd.slice("add ".length);
               console.log(`Added ${id} to`);
               array.push(id);
 
             } else if ( cmd.startsWith("remove ") ) { // Retirer l'id.
-              var id = cmd.slice("remove ".length);
+              let id = cmd.slice("remove ".length);
               for ( let i = array.length-1; i--;) {
                 if ( array[i] == id) array.splice(i, 1);
                 }
@@ -161,6 +162,7 @@ bot.on("message", function (message) {
             return array;
           }
 
+          
           let inspector = { message   :  config.messagesID,
                             channel   :  config.channelsID,
                             blacklist :  config.blackList,
