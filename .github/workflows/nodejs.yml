@@ -23,6 +23,5 @@ jobs:
         npm i socket.io
         npm i --save-dev nodemon
         npm run dev --if-present
-        npm test
       env:
         CI: true
