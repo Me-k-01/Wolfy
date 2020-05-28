@@ -1,0 +1,11 @@
+```cpp
+#include <iostream>
+#include <string>
+
+int main() {
+  std::string str = "Loup";
+  for (char& chr : str) {
+    std::cout << chr << " \n" ;
+  }
+}
+```

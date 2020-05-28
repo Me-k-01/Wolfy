@@ -1,23 +1,24 @@
 {
   "name": "Wolfy",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "description": "Bot discord du groupe Mathieu",
-  "main": "botHosting.js",
+  "main": "index.js",
   "engines": {
     "node": "12.13.0",
     "npm": "6.12.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node botHosting.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Me-k-01/Wolfy.git"
   },
   "keywords": [
-    "Nuit de l'info",
-    "Mathieu"
+    "Wolfy",
+    "Bot",
+    "Game Jam"
   ],
   "author": "Me-k",
   "license": "ISC",
@@ -26,6 +27,6 @@
   },
   "homepage": "https://github.com/Me-k-01/Wolfy#readme",
   "dependencies": {
-    "discord.js": "github:discordjs/discord.js#master"
+    "discord.js": "github:discordjs/discord.js#v2-beta"
   }
 }

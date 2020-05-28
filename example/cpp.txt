@@ -1,9 +1,0 @@
-#include <iostream>
-#include <string>
-
-int main(  ) {
->  std::string str = "Loup";
->  for (char& chr : str) {
->    std::cout << "It's a " << chr << "! \n" ;
->  }
-}

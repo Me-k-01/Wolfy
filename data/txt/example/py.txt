@@ -1,0 +1,5 @@
+```python
+txt = "Loup"
+for char in txt:
+  print(char)
+```

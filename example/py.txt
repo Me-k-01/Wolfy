@@ -1,2 +1,0 @@
-for c in "loup":
->  print("it's a " + c + "!")

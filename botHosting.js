@@ -1,5 +1,5 @@
-const Discord = require("discord.js");  // Charge la librairy discord.
-var config = require("./config.json");  // Reccupere le fichier config.
+const Discord = require("discord.js");  // Charge la librairie discord.
+var config = require("./config.json");  // Récupere le fichier config.
 const fs = require("fs");  // fs pour lire le fichier .txt .
 
 const bot = new Discord.Client({
@@ -20,7 +20,7 @@ bot.on("ready", function () {
 bot.on("error", function (err) {  // Lorsqu'il y a une erreur,
   console.log("An error has occured!");
   console.error(err);  // On l'affiche dans la console
-  if ( bot.users.get(config.adminsID[0]) ) {  // On regarde si l'admin est trouvable
+  if ( bot.users.get(config.adminsID[0]) ) {  // On regarde si l'admin principal est trouvable
   // Si il est présent sur un serveur commun au bot.
     // On lui transmet l'erreur.
     bot.users.get(config.adminsID[0]).send(err);
@@ -30,7 +30,7 @@ bot.on("error", function (err) {  // Lorsqu'il y a une erreur,
 
 bot.on("guildMemberAdd", function (member) {
   let user = member.user;
-  user.send(fs.readFileSync(config.textPath.welcome, "utf8"))
+  user.send(fs.readFileSync(config.textPath.welcome, "utf8"));
 });
 
 bot.on("messageReactionAdd", async function (reaction, user) {
@@ -45,7 +45,7 @@ bot.on("messageReactionAdd", async function (reaction, user) {
     try { // On fait attention au erreurs d'attribution de role lié aux permissions.
       if ( role && member ) {
         await member.roles.add(role);  // On ajoute le membre au role lié à la reaction.
-        console.log(user.username + " became " + role.name)
+        console.log(user.username + " became " + role.name);
       }
     } catch(err) {  // Si il y a une erreur
       console.log(err);
@@ -64,7 +64,7 @@ bot.on("messageReactionAdd", async function (reaction, user) {
       console.log(err);
     }
   } else {
-    for ( var i = 0; i < config.messagesID.length; i++ ) {
+    for ( let i = 0; i < config.messagesID.length; i++ ) {
       if ( reaction.message.id == config.messagesID[i] ) {
           applyRole();
       }
@@ -95,7 +95,7 @@ bot.on("messageReactionRemove", async function (reaction, user) {
   if ( reaction.message.partial ) {
     try {
       let msg = await reaction.message.fetch();
-      for ( var i = 0; i < config.messagesID.length; i++ ) {
+      for ( let i = 0; i < config.messagesID.length; i++ ) {
         if ( msg.id == config.messagesID[i] ) {
           removeRole();
         }
@@ -162,7 +162,7 @@ bot.on("message", function (message) {
             return array;
           }
 
-          
+
           let inspector = { message   :  config.messagesID,
                             channel   :  config.channelsID,
                             blacklist :  config.blackList,
@@ -206,7 +206,7 @@ bot.on("message", function (message) {
   var msg = message.content.toLowerCase();  // On ne prends pas en compte la casse.
 
   if ( pm ) { // Lorsque c'est un message privé,
-    ///////////// Personnes a ne pas prendre en compte 
+    ///////////// Personnes a ne pas prendre en compte
     // On verifie que ce n'est pas un des admins,
     if ( config.blackList.indexOf(message.author.id) != -1 ) return;
     if ( config.adminsID.indexOf(message.author.id) != -1 ) return;

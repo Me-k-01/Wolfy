@@ -1,4 +1,0 @@
-var str = "loup";
-for (let i = 0; i < str.length; i++) {
->  console.log("It's a", str.charAt(i) + "!");
-}
