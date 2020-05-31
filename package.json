@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/Me-k-01/Wolfy#readme",
   "dependencies": {
-    "discord.js": "github:discordjs/discord.js#v2-beta"
+    "discord.js": "github:discordjs/discord.js#v2-beta",
+    "fs-extra": "^9.0.0"
   }
 }

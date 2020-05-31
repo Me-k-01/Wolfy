@@ -14,13 +14,15 @@ Here is the dependencies needed to start hosting the bot.
 npm install discord.js
 ```
 - nodemon
-
+- fs-extra
+```bash
+npm install fs-extra
+```
 ## Usage
 After making sure you downloaded every dependencies, you can start hosting the bot from a terminal located inside the project folder by typing the following:
 ```bash
 npm start
 ```
-
 
 
 

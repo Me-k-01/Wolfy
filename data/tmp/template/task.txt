@@ -1,0 +1,8 @@
+Ce qui est essentiel au fonctionnement du jeu
+``` ```
+Ce que l'on devrais faire
+``` ```
+Ce que l'on pourrais faire
+``` ```
+Ce que l'on n'aura pas le temps de faire
+``` ```
