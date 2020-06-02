@@ -64,22 +64,7 @@ client.on("guildMemberAdd", member => {
 
 client.on("channelDelete", channel => {
   const guild = channel.guild;
-  if (guild) {
-    const dataServer = data[guild.id],
-      dataChan = dataServer.channels,
-      i = dataChan.tasks.indexOf(channel.id);
-    if (i>=0) {
-      // If the user just deleted a stored channel, we need to remove it from the array
-      taskChan.tasks.splice(i, 1);
-      dataServer.messages.tasks.splice(i, 1);
-      data.save();
-    } else if (dataChan.taskCategory === channel.id) {
-      // If it's the category stored, we also need to remove it from the array
-      delete dataChan.taskCategory;
-      data.save();
-    }
-
-  }
+  data.removeChannel(guild.id, channel.id);
 });
 
 client.on("message", async msg => {
