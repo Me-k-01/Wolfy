@@ -1,4 +1,3 @@
-const proto = {x: 3};
-const x = Object.create(proto);
+const data = require('./lib/data.js')
 
-console.log(JSON.stringify(x));
+data.write("template", "task", data.read("template", "task").replace(/>/g, "> "))
